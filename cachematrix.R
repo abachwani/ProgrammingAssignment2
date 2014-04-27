@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## The maeCacheMatrix function is used to create a inversable matrix
+# The maeCacheMatrix function is used to create a inversable matrix
 
 makeCacheMatrix <- function(x = matrix()){
 	value <- NULL
@@ -17,7 +17,9 @@ makeCacheMatrix <- function(x = matrix()){
 }
 
 
-## Inverseing a matrix if not already inversed else return the cached-inversed  ## matrx. 
+# The cachesolve function checkes to see if there is already a result present in cache for the matrix inversion.
+#If already present, it uses that result else it computes the  matrix inversion and stores the result in cache.
+
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
